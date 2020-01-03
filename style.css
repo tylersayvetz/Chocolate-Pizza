@@ -8,6 +8,8 @@ h1 {
     margin-block-end: 0px;
     font-weight: bolder;
     letter-spacing: 1px;
+    font-size: 45px;
+    line-height: 1;
 
 }
 
@@ -18,6 +20,18 @@ h3 {
     color: rgb(97, 97, 97);
     font-size: 12px;
     margin: 0;
+}
+
+h4 {
+    text-indent: 2em;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    color: rgb(85,85,85);
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    display: inline;
+    
+    
 }
 
 ul {
@@ -104,6 +118,10 @@ li {
     position: relative;
 }
 
+.in-block {
+    display: inline-block;
+}
+
 #header-logo img {
     padding: 10px 10px 10px 0px;
     display: inline;
@@ -125,13 +143,29 @@ li {
     padding: 0px 10px 0px 10px;
 }
 
-#stripe {
+.stripe {
     background-image: linear-gradient(45deg, #ffffff 25%, #c2c2c2 25%, #c2c2c2 50%, #ffffff 50%, #ffffff 75%, #c2c2c2 75%, #c2c2c2 100%);
     background-size: 5.66px 5.66px;
     height:15px;
     float: none;
+    margin-block-end: 30px;
+    margin-block-start: 20px;
 
 }
+
+.line {
+    height: 2px;
+    background-color: rgb(240,240,240);
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+}
+
+.line img {
+    display: inline-block;
+
+}
+
+
 #content-title {
     margin-top: 50px;
 }
@@ -185,10 +219,69 @@ li {
     height: 305px;
     background-image: url('assets/list-bg.png');
     display: block;
+    margin-block-end: 20px;
 }
 
 .list {
     margin: 0 auto;
     width: 90%;
     padding: 10px;
+}
+
+#bio {
+    margin-inline-start: 20px;
+    text-indent: 0px;
+    width: 70%;
+}
+
+#bio p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+
+#share-button {
+    position: absolute;
+    bottom: 10px;
+    left: 17px;
+    height: 50px;
+    width: 180px;
+}
+
+
+.orange-button {
+    background-color: #D8613C;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.orange-button p {
+    display: inline;
+}
+
+#small-logo {
+    position: absolute;
+    top: 33px;
+    left: calc(50% - 25px);
+    text-align: center;
+    height: 33px;
+    width: 50px;
+    background-color: white;
+}
+
+.copywrite {
+    text-align: center;
+    color: rgb(180,180,180);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.copywrite div {
+    margin-block-end: 50px;
 }
