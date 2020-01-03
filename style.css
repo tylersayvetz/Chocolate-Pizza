@@ -20,6 +20,21 @@ h3 {
     margin: 0;
 }
 
+ul {
+    list-style-image: url('assets/bullet.png');
+}
+
+li {
+    line-height: 1.5;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    color: grey;
+
+
+
+}
+
+
 #title {
     font-family: 'Mrs Sheppards', cursive;
     font-weight: 100;
@@ -73,6 +88,10 @@ h3 {
     width: 100%;
 }
 
+.column-2 {
+    width: 50%;
+}
+
 .column-3 {
     width: 33.33%;
 }
@@ -81,15 +100,20 @@ h3 {
     width: 66.66%;
 }
 
+.relative {
+    position: relative;
+}
+
 #header-logo img {
     padding: 10px 10px 10px 0px;
     display: inline;
 }
 
-#sharing-widgets {
-    vertical-align: middle;
-    padding: 23px 0px 23px 94px;
+.sharing-widgets {
+    position: absolute;
+    top: 10px;
     right: 0px;
+    
 }
 
 #header-upper {
@@ -137,6 +161,34 @@ h3 {
     height: 90px;
 }
 
+.cake-pic {
+   
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 #choco-pizza {
     width: 960px;
+}
+
+.para {
+    text-indent: 2em;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    color: rgb(105, 105, 105);
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.notebook {
+    height: 305px;
+    background-image: url('assets/list-bg.png');
+    display: block;
+}
+
+.list {
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
 }
