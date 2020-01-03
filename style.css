@@ -4,14 +4,13 @@
 }
 
 h1 {
-    font-family: 'Mrs Sheppards', cursive;
-    font-weight: 100;
-    color: rgb(46, 46, 46);
-    font-size: 40px;
-    margin: 0;
-    line-height: 0.8;
-    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    margin-block-end: 0px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
 }
+
 
 h3 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -19,6 +18,17 @@ h3 {
     color: rgb(97, 97, 97);
     font-size: 12px;
     margin: 0;
+}
+
+#title {
+    font-family: 'Mrs Sheppards', cursive;
+    font-weight: 100;
+    color: rgb(46, 46, 46);
+    font-size: 40px;
+    margin: 0;
+    line-height: 0;
+    padding-top: 25px;
+    margin-block-end: 0px;
 }
 
 #header {
@@ -38,7 +48,7 @@ h3 {
     margin: 0 auto;
     margin-top: 30px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 960px;
 }
 
 .row:before, .row:after {
@@ -46,6 +56,10 @@ h3 {
     display: table;
     background-color: coral;
     min-height: 78px;
+}
+
+.row {
+    display: table-row;
 }
 
 [class*='column-'] {
@@ -68,13 +82,13 @@ h3 {
 }
 
 #header-logo img {
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     display: inline;
 }
 
 #sharing-widgets {
     vertical-align: middle;
-    padding: 23px 10px 23px 164px;
+    padding: 23px 0px 23px 94px;
     right: 0px;
 }
 
@@ -84,6 +98,7 @@ h3 {
 
 #header-bottom {
     vertical-align: middle;
+    padding: 0px 10px 0px 10px;
 }
 
 #stripe {
@@ -93,4 +108,35 @@ h3 {
     float: none;
 
 }
+#content-title {
+    margin-top: 50px;
+}
 
+.content-subhead {
+    color: rgb(156, 156, 156);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    position: relative;
+}
+
+#print-icon {
+    display: inline-block;
+}
+
+#print {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#content-subhead-right {
+    position: relative;
+    height: 90px;
+}
+
+#choco-pizza {
+    width: 960px;
+}
